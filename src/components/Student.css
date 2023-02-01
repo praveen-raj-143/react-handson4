@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+    
+}
+.item{
+    font-size: xx-large;
+    font-style: italic;
+}
+.item1{
+    width: 250px;
+    height: 80px;
+    font-style: italic;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.table{
+    width: 900px;
+    margin: auto;
+    font-size: 25px;
+    font-style: oblique;
+}
+tr{
+    background-color: white;
+}
+.addtask{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.txt{
+    width: 350px;
+    height: 50px;
+    margin: 30px;
+}
+.btn{
+    width: 150px;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.pos{
+    margin: auto;
+    width: 1000px;
+}
